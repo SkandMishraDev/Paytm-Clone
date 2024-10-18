@@ -1,0 +1,50 @@
+.paytm-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #c1d3f1; /* Paytm's blue theme color */
+    color: white;
+  }
+  
+  .logo-container {
+    flex: 1;
+  }
+  
+  .paytm-logo {
+    height: 40px;
+    width: auto;
+  }
+  
+  .search-bar {
+    flex: 3;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-bar input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .icons-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .icon-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .icon-btn:hover {
+    color: #4caf50; /* Hover effect */
+  }
+  

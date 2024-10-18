@@ -1,0 +1,58 @@
+.paytm-footer {
+    background-color: #c1d3f1;  /* Paytm's blue theme color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-social span {
+    margin-right: 10px;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .social-icon:hover {
+    color: #4caf50; /* Hover effect */
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid white;
+    padding-top: 10px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
